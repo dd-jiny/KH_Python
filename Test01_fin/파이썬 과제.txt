@@ -1,0 +1,28 @@
+요구한 내용에 따라 파이썬 파일을 작성한 다음, 작성한 파일을 수강생이름.ZIP 파일로 압축하여 제출하시오.
+
+1. 다음 주소에서 kh 강사님들의 이름과 사진주소를 크롤링하는 코드를 작성하시오.
+URL : https://www.iei.or.kr/intro/teacher.kh
+
+
+
+
+
+
+
+
+2. 크롤링 한 데이터를 JSON 형태로 변환하는 코드를 작성하시오.
+JSON 예시
+{"kh":
+[
+{"name":"노민수 부사장님", "img":"https://www.iei.or.kr/upload/teacher/tksemfhr_teacher.jpg"},
+{"name":"김언체 원장님", "img":"https://www.iei.or.kr/upload/teacher/ruina_teacher.jpg"},
+... # 이하 생략
+]
+}
+
+
+
+
+
+
+3. 변환된 코드를 teacher.json 파일로 생성하는 코드를 작성하시오.

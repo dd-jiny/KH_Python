@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<link rel="stylesheet" href="{{url_for('static', filename='style.css')}}" />
+</head>
+<body>
+
+	{% if name %}
+		<h1>hello, {{name}}!</h1>
+	{% else %}
+		<h1>Hello, Flask!</h1>
+	{% endif %}
+	
+	<form action="/test" method="post">
+		<input type="hidden" name="command" value="query string test"/>
+		<input type="submit" value="test"/>
+	</form>
+	<!-- https://jinja.palletsprojects.com/en/3.0.x/ 템플릿 참고!-->
+</body>
+</html>
